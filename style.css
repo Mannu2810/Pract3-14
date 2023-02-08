@@ -1,0 +1,46 @@
+body{
+    background-color: skyblue;
+    }
+    h1.titol{
+    text-align: center;
+    color: blue;
+    }
+    span.letra{
+    font-size: 250%;
+    color: black;
+    }
+    span.hover:hover{
+    background-color:yellow ;
+    color: red;
+    }
+    p.azul{
+        font-size: 150%;
+    text-align: center;
+    color: blue;
+    }
+    p.primera::first-line{
+    color: red;
+    }
+    a:visited{
+    background-color: blue;
+    color: white;
+    }
+    a:link{
+        background-color: white;
+        color: blue;
+        }
+    h3.a{
+    counter-reset: cuenta-productos;
+    }
+    p.ciclos::before{
+    content: counter(cuenta-productos) ".";
+    counter-increment: cuenta-productos;
+    }
+    img{
+        position: relative;
+        left: 80%;
+        top: -450px;
+    }
+    
+    
+    
